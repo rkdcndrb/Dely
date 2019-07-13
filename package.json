@@ -5,13 +5,20 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "cd src && nodemon index.js -e js, graphql"
+    "dev": "cd src && nodemon index.js -e js, graphql",
+    "start": "cd src && nodemon --exec babel-node index.js -e js, graphql"
   },
   "dependencies": {
     "apollo-server-express": "^2.6.9",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "graphql": "^14.4.2",
     "graphql-tools": "^4.0.5",
+    "helmet": "^3.18.0",
+    "morgan": "^1.9.1",
     "nodemon": "^1.19.1"
   }
 }
