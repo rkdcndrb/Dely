@@ -1,0 +1,17 @@
+{
+  "name": "dely",
+  "version": "1.0.0",
+  "description": "dely-server in javascript",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cd src && nodemon index.js -e js, graphql"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.6.9",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2",
+    "graphql-tools": "^4.0.5",
+    "nodemon": "^1.19.1"
+  }
+}
