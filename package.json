@@ -9,7 +9,7 @@
     "start": "cd src && nodemon --exec babel-node index.js -e js, graphql"
   },
   "dependencies": {
-    "apollo-server-express": "^2.6.9",
+    "apollo-server-express": "^2.14.2",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "body-parser": "^1.19.0",
